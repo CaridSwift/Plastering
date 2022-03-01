@@ -189,6 +189,9 @@ h4 {
     background-color: rgba(71, 245, 71, 0.08);
     padding: 5px;
     font-size: 1.05em;
+    border: 3px solid;
+    border-radius: 40px;
+    margin: 0px 30px;
 }
 .Coninfo{
     text-align: center;
