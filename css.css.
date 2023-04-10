@@ -313,12 +313,13 @@ h4 {
   /* Create four equal columns that sits next to each other */
   .column {
     flex: 25%;
-    max-width: 25%;
+    
     padding: 0 4px;
   }
   
   .column img {
-    margin-top: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
     vertical-align: left;
     width: 45%;
   }
@@ -327,7 +328,7 @@ h4 {
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
-      max-width: 50%;
+      
     }
   }
   
